@@ -4,19 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-      <li>
-        <a href="./recipes/lasagna.html">Lasagna</a>
-      </li>
-      <li>
-        <a href="./recipes/pizza.html">Pizza</a>
-      </li>
-      <li>
-        <a href="./recipes/burger.html">Burger</a>
-      </li>
-    </ul>
+    <div class="container">
+      <h1 class="title">Odin Recipes</h1>
+    </div>
+
+    <div class="list">
+      <div class="card">
+        <img src="./images/lasagna.jpg" alt="lasagna" />
+        <div class="card-title">
+          <h3>Lasagna</h3>
+          <div>
+            <h4>Description</h4>
+            <p>
+              This lasagna recipe takes a little work, but it is so satisfying
+              and filling that it's worth it!
+            </p>
+          </div>
+          <div class="btn">
+            <a href="./recipes/lasagna.html">
+              <button>View Recipe</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/burger.jpg" alt="burger" />
+        <div class="card-title">
+          <h3>Burger</h3>
+          <div>
+            <h4>Description</h4>
+            <p>
+              These burger patties are made with ground beef and an easy bread
+              crumb mixture. Nothing beats a simple hamburger on a warm summer
+              evening. Pile these burgers with your favorite condiments and pop
+              open a cool drink!
+            </p>
+          </div>
+          <div class="btn">
+            <a href="./recipes/burger.html">
+              <button>View Recipe</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/pizza.jpg" alt="pizza" />
+        <div class="card-title">
+          <h3>Pizza</h3>
+          <div>
+            <h4>Description</h4>
+            <p>
+              This is a great recipe when you don't want to wait for the dough
+              to rise. You just mix it and allow it to rest for 5 minutes and
+              then it's ready to go! It yields a soft, chewy crust.
+            </p>
+          </div>
+          <div class="btn">
+            <a href="./recipes/pizza.html">
+              <button>View Recipe</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
