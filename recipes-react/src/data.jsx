@@ -1,0 +1,77 @@
+export const recipes = [
+  {
+    id: 0,
+    name: "Burger",
+    image: "burger.jpg",
+    link: "burger.html",
+    description:
+      "These burger patties are made with ground beef and an easy bread crumb mixture. Nothing beats a simple hamburger on a warm summer evening. Pile these burgers with your favorite condiments and pop open a cool drink!",
+    ingredients: [
+      "1 large egg",
+      "½ teaspoon salt",
+      "½ teaspoon ground black pepper",
+      "1 pound ground beef",
+      "½ cup fine dry bread crumbs",
+    ],
+    steps: [
+      "Preheat an outdoor grill for high heat and lightly oil grate.",
+      "Whisk together egg, salt, and pepper in a medium bowl.",
+      "Add ground beef and bread crumbs and mix with your hands or a fork until well blended.",
+      "Form into four 3/4-inch-thick patties.",
+      "Place patties on the preheated grill. Cover and cook 6 to 8 minutes per side, or to desired doneness. An instant-read thermometer inserted into the center should read at least 160 degrees F (70 degrees C).",
+      "Serve hot and enjoy!",
+    ],
+  },
+  {
+    id: 1,
+    name: "Lasagna",
+    image: "lasagna.jpg",
+    link: "lasagna.html",
+    description:
+      "This lasagna recipe takes a little work, but it is so satisfying and filling that it's worth it!",
+    ingredients: [
+      "Meat",
+      "Onion and garlic",
+      "Tomato products",
+      "Sugar",
+      "Spices and seasonings",
+      "Lasagna noodles",
+      "Cheeses",
+      "Egg",
+    ],
+    steps: [
+      "Make the meat sauce.",
+      "Cook the noodles.",
+      "Make the ricotta mixture.",
+      "Layer the lasagna according to the recipe instructions.",
+      "Cover with foil and bake.",
+      "Let the lasagna rest before serving.",
+    ],
+  },
+  {
+    id: 2,
+    name: "Pizza",
+    image: "pizza.jpg",
+    link: "pizza.html",
+    description:
+      "This is a great recipe when you don't want to wait for the dough to rise. You just mix it and allow it to rest for 5 minutes and then it's ready to go! It yields a soft, chewy crust.",
+    ingredients: [
+      "1 cup warm water (110 degrees F/45 degrees C)",
+      "1 (.25 ounce) package active dry yeast",
+      "1 teaspoon white sugar",
+      "2 ½ cups bread flour",
+      "2 tablespoons olive oil",
+      "1 teaspoon salt",
+    ],
+    steps: [
+      "Gather all ingredients. Preheat oven to 450 degrees F (230 degrees C), and lightly grease a pizza pan.",
+      "Place warm water in a bowl; add yeast and sugar. Mix and let stand until creamy, about 10 minutes.",
+      "Add flour, oil, and salt to the yeast mixture; beat until smooth. You can do this by hand or use a stand mixer fitted with a dough hook to make it easier.",
+      "Let rest for 5 minutes.",
+      "Turn dough out onto a lightly floured surface and pat or roll into a 12-inch circle.",
+      "Transfer to the prepared pizza pan.",
+      "Spread crust with sauce and toppings of your choice.",
+      "Bake in the preheated oven until golden brown, 15 to 20 minutes. Remove from the oven and let cool for 5 minutes before serving.",
+    ],
+  },
+];
